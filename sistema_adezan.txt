@@ -1,0 +1,58 @@
+pezinho = 120
+base = 300
+lateral = 200
+testeiro = 230
+tampa = 300
+serilateral = 100
+seritesteiro = 40
+seritampa = 30
+seribase = 30
+kit = 130
+amarracao = 130
+
+def lin():
+    print('=' * 50)
+
+
+
+print('Pézinho:')
+largpezinho = float(input('Qual a largura do Pézinho em centímetros? '))
+comppezinho = float(input('Qual o comprimento do Pézinho em centímetros? '))
+print('armazenou {}' .format(largpezinho))
+print('armazenou {}' .format(comppezinho))
+lin()
+
+print('Base:')
+largbase = float(input('Qual a largura da Base em centímetros? '))
+compbase = float(input('Qual o comprimento da Base em centímetros? '))
+print('armazenou {}' .format(largbase))
+print('armazenou {}' .format(compbase))
+lin()
+
+print('Lateral:')
+larglateral = float(input('Qual a largura da Lateral em centímetros? '))
+complateral = float(input('Qual o comprimento da Lateral em centímetros? '))
+print('armazenou {}' .format(larglateral))
+print('armazenou {}' .format(complateral))
+lin()
+
+print('Testeiro:')
+largtesteiro = float(input('Qual a largura do Testeiro em centímetros? '))
+comptesteiro = float(input('Qual o comprimento do Testeiro em centímetros? '))
+print('armazenou {}' .format(largtesteiro))
+print('armazenou {}' .format(comptesteiro))
+lin()
+
+print('Tampa:')
+largtampa = float(input('Qual a largura da Tampa em centímetros? '))
+comptampa = float(input('Qual o comprimento da Tampa em centímetros? '))
+print('armazenou {}' .format(largtampa))
+print('armazenou {}' .format(comptampa))
+lin()
+
+print('Caixa Montada:')
+largcaixa = float(input('Qual a largura da Caixa Montada em centímetros? '))
+compcaixa = float(input('Qual o comprimento da Caixa Montada em centímetros? '))
+print('armazenou {}' .format(largcaixa))
+print('armazenou {}' .format(compcaixa))
+lin()
